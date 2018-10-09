@@ -1,0 +1,54 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    color: #7c78ff;
+}
+
+title {
+    font-size: 10px;
+    margin: 50px;
+}
+
+.flexed {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.Chrono h1 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 10px 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: 1px solid rgba(91, 109, 243, 0.4);
+}
+
+.Chrono .buttons {
+    margin-top: 20px;
+}
+
+.Chrono button {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.Chrono button+button {
+    margin-left: 10px;
+}
+
+.Chrono button:hover {
+    border-bottom-color: rgb(135, 131, 255);
+}
